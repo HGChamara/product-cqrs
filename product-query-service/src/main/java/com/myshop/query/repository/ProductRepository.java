@@ -1,0 +1,7 @@
+package com.myshop.query.repository;
+
+import com.myshop.query.entity.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProductRepository extends JpaRepository<Product, Long> {
+}

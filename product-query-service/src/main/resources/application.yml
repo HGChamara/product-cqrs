@@ -1,0 +1,14 @@
+server:
+  port: 8082
+  servlet:
+    contextPath: /api
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cqrs-db
+    username: postgresuser
+    password: postgrespass
